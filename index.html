@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" class="rel">
+    <link rel="stylesheet" href="css/responsive.css" class="rel">
+    <title>Be-Productive - A Minimal Productivity Blog and Todo's List</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/download.jfif" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">A minimal way to stay productive</p>
+                <p class="text-small">Your ultimate guide and helping hand for being productive and focussed in your
+                    work and goals in a minimal approach</p>
+                    <div class="buttons">
+                       <a href="login.php"><button class="btn">LogIn</button></a> 
+                        <a href="register.php"><button class="btn">SignUp</button></a>
+                    </div>
+            </div>
+            <div class="secondHalf">   
+               <img src="img/download.jfif" alt="logo">
+            </div>
+        </div>
+    </section> 
+    <section class="section" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">What are we here to offer ?</p>
+        <p class="sectionSubTag text-small"> In today's world of procastination and lack of focus on work, productivity of students and many people are 
+            on the verge of decline. Smartphones, new technology and the internet needs to play an important role in boosting the productivity of people to a whole 
+            lot extent. But sadly that doesn't happen people always dont tend to use technology for increasing their quality of work rather they get 
+            distracted by a whole lot of things surrounding the internet and end up wasting their time. So our main aim is to increase the work efficiency 
+            of the people to bring out the maxiumum productivity and fufill their goals.
+        </p>
+    </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?minimal,productivity" alt="Image" class="imgFluid">
+        </div>
+    </section>
+    <hr>
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">What are the services we are going to implement to enhance productivity ?</p>
+        <p class="sectionSubTag text-small">We are going to publish blogs on various topics related to productivity and minimalism regularly.
+            These blogs would cover all the aspects related to productivity starting from jotting down your goals, breaking them into subtasks, 
+            prioritising your tasks according to a stipulated deadline, working on achieving large goals on a long run. All these blogs would be made 
+            keeping in mind a hassle free and minimal approach. We are going to provide you a to-do's list where you can accumulate all your tasks and
+            events and access them on any device.
+        </p>
+    </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?coding,notebook" alt="Image" class="imgFluid">
+        </div>
+    </section>
+    <hr>
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">What do you have to do to get all these services ? Is the credit card necessary?</p>
+        <p class="sectionSubTag text-small"> To make you realize our services are completely free of cost. You just need to signup to our website and 
+            login through your username and password to access and use the to-do's list service in whichever device you wish. By signing up you will also
+            recieve personalised newsletters of various productivity related things right in your mailbox. You will also recieve email-notifications 
+            whenever any new blog is published on our website.
+        </p>
+    </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?minimal,coffee" alt="Image" class="imgFluid">
+        </div>
+    </section>
+    
+    <section class="contact" id="contact" action="contactform.php" method="post">
+        <h1 class="text-center">Contact Us</h1 >
+        <div class="form">
+		
+		<form action="contactform.php" method="post" >
+			
+			<input type="text" name="name" class="form-input" placeholder="Enter Your Name" required><br>
+			
+			<input type="email" name="email" class="form-input" placeholder="Enter Your Email" required><br>
+			
+			<input type="tel" name="phone" class="form-input" placeholder="Enter Your Phone" required><br>
+			
+			<textarea name="msg" class="form-input" cols="30" rows="10" placeholder="Enter Your Message Here..." required></textarea><br>
+			<input type="submit" name="submit" value="Send" class="btn btn-dark">
+		</form>
+	</div>
+    </section>
+    <footer>
+        <p class="text-footer">
+            Copyright &copy; 2027 www.Be-Productive com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+</body>
+
+</html> 

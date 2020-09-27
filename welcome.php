@@ -32,9 +32,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
         <div class=" collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav v-class-resp">
-                <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-                <li class="nav-item v-class-resp"><a class="nav-link v-class-resp" href="#">Blog</a></li>
-                <li class="nav-item v-class-resp"><a class="nav-link v-class-resp" href="login.php">Login</a></li>
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item v-class-resp"><a class="nav-link v-class-resp" href="blog.php">Blog</a></li>
+                <li class="nav-item v-class-resp"><a class="nav-link v-class-resp" href="#">About</a></li>
                 <li class="nav-item v-class-resp"><a class="nav-link v-class-resp" href="logout.php">Logout</a></li>
                 
             </ul>

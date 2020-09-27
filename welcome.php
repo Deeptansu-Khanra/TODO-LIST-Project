@@ -48,7 +48,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <div class="line"></div>
             <div class="line"></div>
         </div>
-    </nav>
+</nav>
 
     <section class="contact background" id="contact" >
         <h1 class="text-center" >Add your tasks</h1 >

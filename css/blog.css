@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    height: 800px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+  
+    cursor: pointer;
+    
+}
+.nav-list{
+width:70%;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+list-style: none; 
+padding: 23px 30px; 
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+    }
+.rightNav{
+     width: 30%;
+     text-align: right;
+     padding: 0 23px;
+     color: white;
+}
+.rightNav li{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+    color: white;
+}
+.background{
+    background: rgba(0, 0, 0, 0.829) url('../img/pexels-jessica-lewis-583846.jpg');
+    background-size: 2000px;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+.text-footer
+{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center; 
+    color: white;
+     background: black;
+     height: 10px;
+}
